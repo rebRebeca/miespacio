@@ -1,0 +1,44 @@
+
+body h1, h3, #sobremi, #conocimientos{
+    font-family: 'Turret Road', cursive; 
+    
+}
+body{
+    margin-top: 70px;
+}
+.max-viewport{
+    min-height: 100vh ;
+}
+body img{
+    width: 50vh;
+}
+.transparent{
+    background-color: rgba(0, 0, 255, 0.562);
+}
+#home, #contact, #social{
+    /*background: linear-gradient(rgba(0, 225, 255, 0.479), rgba(0, 0, 255, 0.562)), url(img/fotoperfil.png);*/
+    background: linear-gradient(120deg, rgba(0, 225, 255, 0.479) 0%, rgba(0, 0, 255, 0.562) 100%),url('../img/fotobanner.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/*navbar*/
+.barra .navbar-nav a:active{
+    text-decoration-line: line-through;
+    text-decoration-color: rgb(187, 16, 16);
+    text-decoration-style: double;
+
+}
+.barra .navbar-nav a:hover{
+    background-color: rgba(0, 255, 255, 0.226);
+    border-radius: 10px;
+}
+
+#portfolio img{
+    width: 40vw;
+}
+
+
+
